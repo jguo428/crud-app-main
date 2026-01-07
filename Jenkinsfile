@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
-        SONAR_TOKEN = credentials('sonar-token')
+        SONAR_TOKEN = credentials('sonar_token')
         SONAR_ORGANIZATION = 'jenkins-project-12345-ci'
         SONAR_PROJECT_KEY = 'jenkins-project-12345-ci_ci-jenkins'
     }
